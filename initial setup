@@ -1,0 +1,11 @@
+ Initial Setup
+
+ 1. Create vitual environment
+
+ python -m venv .venv
+
+ 2. activate the virtual environment -> .\.restapivenv\Scripts\activate
+ 3. deactivate the virtual environment -> deactivate
+ 4. pip install flask
+ 5. add file app.py
+ 6. flask run (command to run flask app)
