@@ -49,3 +49,22 @@ def get_item_in_store(name):
         if store["name"] == name:
             return {"items": store["items"]}
     return {"message":"store not found"},404
+
+
+# http://127.0.0.1:5000/store/My Store
+
+body:
+
+{
+    "name":"Table",
+    "price":20.10
+}
+
+# http://127.0.0.1:5000/store/My Store/item
+
+body:
+
+{
+    "name":"Table",
+    "price":20.10
+}
