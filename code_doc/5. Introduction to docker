@@ -1,0 +1,9 @@
+1. Add Dockerfile
+2. write the code in Dockerfile
+3. run command to build Dockerfile: docker build -t myimage .
+4. goto docker desktop app and run the image
+5. OR we can run by command: docker run -p 5005:5000 myimage
+
+OR
+
+docker run -dp 5005:5000 myimage
