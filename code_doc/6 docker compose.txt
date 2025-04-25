@@ -1,0 +1,5 @@
+1. Create docker-compose.yml file and write the code
+2. run command: docker compose up
+3. OR run command
+
+docker compose up --build --force-recreate --nodeps web
